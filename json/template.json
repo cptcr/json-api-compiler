@@ -1,0 +1,21 @@
+[
+    {
+        "endpoint": "/api/v1/resource",
+        "method": "POST",
+        "headers": {
+            "Content-Type": "application/json",
+            "Authorization": "Bearer <token>"
+        },
+        "body": {
+            "key1": "value1",
+            "key2": "value2"
+        },
+        "response": {
+            "status": 200,
+            "body": {
+                "message": "Success",
+                "data": {}
+            }
+        }
+    }
+]
